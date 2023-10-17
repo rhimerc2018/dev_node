@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60936988-EA9E-8690-B58B-051E9891B495" name="Image">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 10:59:59 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>085C0814-FFFE-2ECB-05F6-E02B7874144B</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="D06F029C-A460-4A9B-94BF-B56DAC73C533">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:00:00 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>65C31C7B-BAF1-6773-605F-470E2D4BBB70</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="F5E013DA-8D81-59C3-74FE-359B5F447CE4">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:00:00 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>F1C5C68B-6B9A-FD52-B3E1-0973E577A634</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filename" id="041521AF-F3B5-BFF6-E25C-238DCFF3CD05">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:00:00 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>05E0B9FA-1215-C9DB-9F32-9237225E0D48</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="views" id="DFAA61C7-8C82-C3EF-816D-31CF3188D573">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:00:00 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>69EB6067-9BB2-0ECB-5332-22E737FEDE5A</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="likes" id="FD44579A-6735-C368-7189-2EA271874D8E">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:00:00 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>A7B3563B-C5AF-B4AF-9DFA-83656F1609F8</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp" id="55F80373-E98D-4923-514D-E4A46D688F68">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:00:00 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>BC32082C-B1DD-D6AF-FACA-10A6AC13D0B0</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="line_id" id="C3DD4E1F-95F4-DC8B-A381-4F22C6BADC11">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:05:42 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>5986F9A8-E249-1BBD-CD17-3D8534416BEB</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orden" id="68FB0EFC-BFA1-FFB1-F67C-5552A8CEF2BE">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:10:55 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="CB7595B8-C848-B4B7-28D1-CBE2E3F064F8">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:11:31 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number" id="40591C1B-30E5-4E76-441D-3F2E94C8EDD0">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:12:52 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commune" id="7AE420D4-BF8A-236F-9CCA-51CFC8C883F2">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:13:18 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

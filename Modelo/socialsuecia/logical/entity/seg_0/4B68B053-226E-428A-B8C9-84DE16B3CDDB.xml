@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B68B053-226E-428A-B8C9-84DE16B3CDDB" name="Planta">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>4E8A45D7-0A67-56A2-5970-C69FFBA33E24</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPlanta" id="02254B46-5CB9-1580-8DA4-0A562AC5AD44">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>122D68E2-7B60-F7BF-8D3D-11A24C40896E</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdSuc" id="BE844804-67C0-B888-041B-0C492D1C0E6D">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>86643F2F-CD2C-E95F-23A9-D26977DAB0B7</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="91332313-B0B9-7A10-0DBD-AA3BE40DCC0B">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>10F0F189-1EE6-11E8-736A-A6AF51752F18</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imagen" id="853E08CE-C81F-7592-BA72-2717A9BD0297">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>7B2D90E2-8C08-5E69-832D-A107B1D658A5</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="1849DE1E-318D-7417-100C-1E612E18E436">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>E4956025-AF8E-2EAB-E77E-7AA286B535F0</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="54FA70AF-A46B-B798-100B-32D6C4A7BEC9">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>58830013-E222-F510-DC61-3B44D4778560</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario" id="489B5BDB-F2E7-41F3-AD05-4EF959267401">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>C061354A-BB15-1E19-EE36-06D1284DFADE</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdSucursal" id="A04BFF8E-88B6-EA16-611C-D0EF779C572B">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<generatorID>93B7A7AB-DD13-CBD3-0950-341149C486A5</generatorID>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>E347D814-0ABC-9427-0802-2082D6883604</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<referedAttribute>DDF46B31-84EC-C9E3-D19D-840E7977B385</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C85DCBF6-02B7-41F5-E330-672FA6B90662" name="Planta PK">
+<createdBy>metaw</createdBy>
+<createdTime>2023-08-31 20:13:26 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>ABA2BE05-BE4F-5142-3BAB-AB898F6EBABD</importedID>
+<engineerTo>
+<item key="F3E95762-C0EC-2634-A672-6EB61C100254" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02254B46-5CB9-1580-8DA4-0A562AC5AD44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

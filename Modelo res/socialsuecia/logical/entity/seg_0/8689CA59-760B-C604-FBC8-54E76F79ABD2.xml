@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8689CA59-760B-C604-FBC8-54E76F79ABD2" name="commenttrain">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:40:54 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="train_id" id="33917C6C-59A8-C40E-81AB-DDFEE301DAB2">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:40:54 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="8FD9CD98-9358-FBD3-C0E4-4BC3F6824835">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:40:54 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A81D2970-EF5D-2D0F-2C74-3F6F107A42AE">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:40:54 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gravatar" id="99108B44-FF6A-E732-F9D1-1A79FAA1ACFB">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:40:54 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="DA083457-1DE5-3CB5-6E36-ECD98895C8DE">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:40:54 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp" id="4B843B10-6170-D086-4EA8-EE6E3DC99E6D">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 11:40:54 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

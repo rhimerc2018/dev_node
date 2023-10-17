@@ -1,0 +1,350 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="550A4E86-35A8-8996-1CFE-7E86E8E323D3" name="Receta">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>E47D1774-45B8-E194-8BAA-44A5E97FDD83</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdSuc" id="E6B6AE30-D2F3-C024-B342-EB7B36488625">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>D379E379-2863-BB67-AB2C-C69A6901F734</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdReceta" id="CC73E22E-F723-FAB2-2132-6FF490D41D52">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>B682A068-B8DB-75BE-21DF-5BABC57AC600</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FecMuestra" id="D6CD7276-AC42-4FE5-4217-80B0DF873D77">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>EA83EE7F-248F-D99A-224F-6F7C650F630B</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProducto" id="D71695A3-C499-0ACC-9A99-F9EA034B208D">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>CB48B526-78F8-F7B4-5C2D-4F61228C93BC</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCemento" id="4706972E-01AE-C057-03DB-DCAC6A1A6DBA">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>66A3DC92-7DB6-CCCD-FB4F-70F16C12EDF1</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PorcCemento" id="707622B5-D46F-E09C-A344-14603A5C844A">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>214C9975-7012-0457-5C49-34E568269501</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PesoCemento" id="EDDE5AD9-7871-EB26-55C5-28ED39337B4B">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>D5A0A0D1-FF17-8CA4-E27F-E7D5668EAB2B</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMuestra" id="3E807BF5-9B1B-2390-C4F1-5A42B9715A8D">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>59947CE0-5CCE-548D-C388-60D2A925D067</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PorcMuestra" id="00C40A85-A957-71B2-3F7F-2DF7BC81A10F">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>E8032C5B-E043-9723-C38A-7FAC7FC68C78</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PesoMuestra" id="0BAC76C6-20B0-F0A6-678B-08F98EBDF321">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>9B8F3485-D258-3E6C-CA83-20429EF9A815</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdArido" id="7E902B51-F03E-BE1B-977E-0D9C6EE5B483">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>B50BDC9A-7654-87DD-CD15-E21EF45E0447</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PorcArido" id="81A707B6-60D3-D807-21F9-C16AB3CA9B1E">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>8C91B918-C6DB-C64A-E9CA-8576BACF3AE5</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PesoArido" id="CBB8B84C-718E-BCBD-AF11-2376F3A5365A">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>D5621B92-E11B-7B19-CC01-6CC0E1A9E1CB</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PorcAgua" id="AA671472-9480-8E87-AA15-EF02B088EC58">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>92DB54F2-4B00-ACE0-0CF8-2545171863E8</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VolAgua" id="2FFA2C14-AFBE-5E63-2400-42DC6A2D3334">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>C0A68D6D-7204-9CB3-000A-88ACEFF1BC0E</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VolAire" id="C0D5C8CA-99A9-55FA-319D-EE408C61A7F0">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>025E47E1-1635-57F2-A6B7-04BBB177C653</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAditivo" id="1F7F0B6A-F732-B32D-5966-755B36268301">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>A902670C-8228-CF1C-6D12-91396E74EF27</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PorcAditivo" id="7DE862AC-73E3-6C00-0939-5357A90AEFC8">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>0A8F8E9F-5DF5-CA64-73E6-7E358B62BE5E</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PesoAditivo" id="4BFD1295-5285-B320-A258-1910F01C6DC6">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>04B7BEC7-C6F7-D563-EE47-B92E200FF480</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="6B836E8A-A023-C325-B989-A85387B25A3A">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>ECA3139F-4BBF-F265-8157-D90465495662</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usuario" id="18F2B613-BF0B-4041-7002-17CC4CC20253">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>4E499425-15A9-C2DC-373E-3A814FA7007A</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4287DBFD-948B-5504-BE8C-9F21AF4945F9" name="RecetaHormigon PK">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>A6988EA4-723B-9D96-2B26-7A03E9809168</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC73E22E-F723-FAB2-2132-6FF490D41D52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

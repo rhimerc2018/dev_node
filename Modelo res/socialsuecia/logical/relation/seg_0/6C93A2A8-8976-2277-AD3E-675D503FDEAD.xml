@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="6C93A2A8-8976-2277-AD3E-675D503FDEAD">
+<createdBy>metaw</createdBy>
+<createdTime>2023-07-29 12:49:20 UTC</createdTime>
+<ownerDesignName>socialsuecia</ownerDesignName>
+<importedID>B90A76A3-DCBE-9F26-ADC2-D2302EDBF934</importedID>
+<engineerTo>
+<item key="B4FF6EC7-A0EC-49BB-FD70-BD51677A701A" value="true"/>
+</engineerTo>
+<sourcePk>5830F933-5D65-9FF0-2318-E6A0D6E879EA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0E631544-4C85-7A54-AB0C-6DEC2311B847</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>062CC111-9343-B376-C98E-46D4C2660A6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
