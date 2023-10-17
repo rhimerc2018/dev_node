@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E735B0BD-0C13-CAE1-46BF-E9685F56007F">
-<createdBy>metaw</createdBy>
-<createdTime>2023-08-31 20:12:58 UTC</createdTime>
-<ownerDesignName>socialsuecia</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
